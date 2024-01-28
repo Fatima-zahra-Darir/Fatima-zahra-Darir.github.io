@@ -1,0 +1,200 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* General */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding-top: 74px;
+  background-color: rgba(1, 6, 21, 0.922) !important;
+  color: #fff !important;
+
+}
+
+/* Navbar */
+
+ul {
+  font-size: x-large;
+
+}
+
+#title {
+  font-size: xx-large;
+
+}
+
+li a:hover {
+  color: #a5269d !important;
+
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  min-height: 91vh;
+  align-items: center;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .content h1 {
+  letter-spacing: 1px !important;
+  font-weight: 600 !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  color: white !important;
+}
+
+.hero .content h2,
+.hero .content h3 {
+  letter-spacing: 1px !important;
+  color: rgb(240, 178, 233) !important;
+  font-size: x-large !important;
+}
+
+.hero .content {
+  padding: 10%;
+}
+
+/* About */
+
+@media only screen and (max-width: 600px) {
+  .About {
+width: 100%;
+margin: 0;
+  }
+  .animate__animated {
+    width: 100%;
+    margin: 0;
+}
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: larger;
+}
+
+.bio {
+  width: 25rem;
+  padding: 2.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px #8b8eaf !important;
+  width: 75%; 
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.About {
+  color: #f0f6fc;
+  padding-top: 100px;
+
+}
+
+.About h2,
+.Contact_Me h1,
+.Projects h1 {
+  color: #c99ef7;
+
+}
+
+.animate__animated {
+  margin: auto;
+}
+
+.social-media a {
+  font-size: xx-large;
+  color: aliceblue;
+  padding-right: 30px;
+
+}
+
+.social-media {
+  margin: auto;
+}
+
+#skl {
+  padding-top: 30px;
+}
+
+/* .skills .skill-header{
+  padding: top 10px; ;
+} */
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+
+}
+
+.icon-card {
+  background-color: #292757;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.item {
+  margin: auto;
+}
+
+
+/* Projects */
+
+.Projects h1 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+img {
+  background-color: #292757;
+  border-radius: 1px;
+  box-shadow: 0 3px 5px;
+}
+
+/* Contact Me */
+.Contact_Me h1 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.container {
+
+  background-color: #292757;
+  border-radius: 1px;
+  box-shadow: 0 3px 5px;
+  margin: 10px;
+}
+
+div#r1 ,#r2 {
+  padding: 20px;
+  border: 2px solid #141927;
+}
+.social{
+  color: #c99ef7;
+}
+.social:hover{
+  color: rgba(207, 44, 202, 0.6);
+}
